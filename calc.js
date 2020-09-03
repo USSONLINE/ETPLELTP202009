@@ -1,10 +1,13 @@
-var cal = require('./cal.js') //importing a module
+//Function to add two integers
+exports.add=function add(a,b){
+    return a+b
+}
 
-result = cal.add(4, 5)
-console.log("the output is " + result);
-result = cal.sub(50, 25)
-console.log("the output is " + result);
-result = cal.mul(4, 5)
-console.log("the output is " + result);
-result = cal.div(50, 25)
-console.log("the output is " + result);
+//Function to subtract an integers from another
+exports.sub=function sub(a,b){
+    return a-b
+}
+
+
+
+
