@@ -8,6 +8,13 @@ exports.sub=function sub(a,b){
     return a-b
 }
 
+//Function to divide an integers with another
+exports.sub=function div(a,b){
+    return a/b
+}
+
+
+
 
 
 

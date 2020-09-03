@@ -10,3 +10,7 @@ var calc= require('./calc.js')
 result= calc.sub(5,2)
 
 console.log("The ouput is " + result );
+
+result= calc.div(6,2)
+
+console.log("The ouput is " + result );
