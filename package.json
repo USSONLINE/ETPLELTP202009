@@ -1,16 +1,14 @@
 {
   "name": "training",
   "version": "1.0.0",
-  "description": "my sample projects",
+  "description": "\"date and time\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Bhavya",
+  "author": "sravani",
   "license": "ISC",
   "dependencies": {
-    "express": "4.17.1",
-    "fs": "0.0.1-security",
-    "mongodb": "3.6.1"
+    "http": "0.0.1-security"
   }
 }

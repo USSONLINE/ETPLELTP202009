@@ -1,11 +1,12 @@
-exports.myDateTime = function () {
-  return Date();
-};
-var http = require('http');
-var dt = require('./date');
+//load the http module
+var http = require("http");
+//declaring the date variable
+var date;
+var port = 8080;
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  res.write("The date and time are currently: " + dt.myDateTime());
-  res.end();
-}).listen(8080);
+http.createServer(function(req,res){
+    res.writeHead(200,{"Content-Type":'text/html'});
+    date = new Date();
+    res.write("Current Date and Time : "+date);
+    res.end();
+}).listen(port);
