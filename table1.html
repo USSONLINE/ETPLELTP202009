@@ -1,0 +1,30 @@
+<html>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<body>
+<table>
+<tr>
+<th>Name</th>
+<th>Location</th>
+</tr>
+<tbody id = "myTable">
+</tbody>
+</table>
+<script>
+var arr = [{'Name' : 'KSP' , 'Location' : 'Khammam'},
+	{'Name' : 'Ramu' , 'Location' : 'Hyderabad'}]
+
+buildTable(arr)
+function buildTable(data){
+var table = document.getElementById('myTable');
+for (var i=0;i<data.length;i++){
+var row = <tr>
+<td>${data[i].Name}</td>
+<td>${data[i].Location}</td>
+</tr>
+table.innerHTML += row
+}
+}
+</script>
+</body>
+</html>
