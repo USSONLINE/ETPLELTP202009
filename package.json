@@ -1,0 +1,23 @@
+{
+  "name": "ETPLELTP202009",
+  "version": "1.0.0",
+  "description": "Welcome to Edvenswa Tech",
+  "main": "currentdateandtime.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USSONLINE/ETPLELTP202009.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/USSONLINE/ETPLELTP202009/issues"
+  },
+  "homepage": "https://github.com/USSONLINE/ETPLELTP202009#readme",
+  "dependencies": {
+    "node-datetime": "^2.1.2"
+  }
+}
