@@ -1,0 +1,14 @@
+{
+  "student": [ 
+	
+    { 
+        "Name": "KSP", 
+        "Location": "Khammam" 
+     }, 
+	
+     { 
+        "Name": "KND", 
+        "Location": "Hyderabad" 
+     } 
+  ]   
+}
