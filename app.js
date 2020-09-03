@@ -1,10 +1,7 @@
-var cal = require('./cal.js') //importing a module
+var http = require('http')
+http.createServer(function(req,res){
+    res.writeHead(200,{'content-Type':'text/html'})
+    res.write("hello world11")
+    res.end()
 
-result = cal.add(4, 5)
-console.log("the output is " + result);
-result = cal.sub(50, 25)
-console.log("the output is " + result);
-result = cal.mul(4, 5)
-console.log("the output is " + result);
-result = cal.div(50, 25)
-console.log("the output is " + result);
+}).listen(8082)
