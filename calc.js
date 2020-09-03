@@ -7,7 +7,8 @@ exports.add=function add(a,b){
 exports.sub=function sub(a,b){
     return a-b
 }
-
-
-
+// funtion to multiply an integers from another
+exports.mul=function mul (a,b){
+    return a*b
+}
 
