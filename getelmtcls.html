@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM manipulations</title>
+    </head>
+    <body bgcolor="aqua">
+      <center><h1>Dom in JavaScript</h1>
+        <script>
+            function changeStyling()
+            {
+           var element=document.getElementsByClassName("mypara");
+           for(var i=0;i<element.length;i++)
+           {
+               element[i].style.color="Orange";
+           }
+           
+            }
+            
+        </script>
+        <p  class="mypara">JavaScript Learner 1</p>
+        <p>JavaScript Learner 2</p>
+        <p class="mypara">JavaScript Learner 3</p>
+        <p class="mypara">JavaScript Learner 4</p>
+        <p>JavaScript Learner 5</p>
+        <a class="mypara" href="a">This is Anchor Tag</a>
+        <br>
+        <button onclick="changeStyling()">Click Me</button>
+</center>
+</body>
+</html>
